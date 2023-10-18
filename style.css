@@ -1,0 +1,66 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1%;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+nav a{
+    display: flex;
+    text-decoration: none;
+    background: lightgray;
+    border-radius: 20px;
+    border: solid gray;
+    padding: 10px;
+    color: black;
+}
+
+nav a:hover {
+    background-color: darkgray;
+    transition: 0.1s;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+button{
+    width: 14rem;
+    height: 2rem;
+    border-radius: 20px;
+    border: solid gray;
+    background-color: lightgray;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: darkgray;
+    transition: 0.1s;
+
+}
+
+hr {
+    width: 32rem;
+}
+
+.input{
+    text-align: center;
+    width: 32rem;
+    height: 2rem;
+    border: solid 1px;
+    border-radius: 7px;
+}
+
+.div-adicionar{
+    margin-left: 140px;
+}
